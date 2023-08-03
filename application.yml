@@ -11,10 +11,6 @@ spring:
   application:
     name: CONFIG-SERVER
     
-  cloud:
-    config:
-      uri: http://localhost:8086
-  config:
-    activate:
-      on-profile:
-        active:native
+eureka.client.register-with-eureka=false
+
+eureka.client.fetch-registry=false
