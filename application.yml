@@ -11,6 +11,3 @@ spring:
   application:
     name: CONFIG-SERVER
     
-eureka.client.register-with-eureka=false
-
-eureka.client.fetch-registry=false
