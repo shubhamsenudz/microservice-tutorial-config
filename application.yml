@@ -2,14 +2,12 @@ eureka:
   instance:
     prefer-ip-address:  true
     
+  eureka:
   client:
-    register-with-eureka: true
-    fetch-registry: true
+    registerWithEureka: false
+    fetchRegistry: false
     service-url:
-      defaultZone: http://localhost:8762/eureka/
-    instance:
-    hostname: localhost
-    prefer-ip-address: true
+      defaultZone: http://localhost:8888/eureka
 spring:
   application:
     name: Config-Default
