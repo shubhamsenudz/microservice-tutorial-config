@@ -12,7 +12,7 @@ eureka:
     prefer-ip-address: true
 spring:
   application:
-    name: CONFIG-SERVER
+    name: Config-Default
     
 spring:
   cloud:
